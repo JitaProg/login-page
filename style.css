@@ -75,15 +75,22 @@ body{
     text-shadow: 0px 0px 20px #34bcee, 0px 0px 20px #34bcee;
 }
 .login-box .remember{
-    margin: 25px -10px;
+    margin: 25px 0px;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 2px;
+    font-size: 14px;
 }
 .login-box .remember label{
-    margin: 0px 10px;
+    font-size: 13px;
     color: #d49414;
     text-shadow: 0px 0px 20px #34bcee, 0px 0px 20px #34bcee;
+}
+.login-box .remember a{
+    margin: 0px 0px 0px 40px;
+    color: #d49414;
+    text-decoration: none;
+    font-size: 16px;
 }
 .login-box .animation{
     position: relative;
@@ -101,7 +108,7 @@ body{
     background: rgb(34,193,195);
     background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(192,231,51,1) 49%, rgba(253,187,45,1) 100%);
     background-size: cover;
-    -webkit-background-clip: text;
+    background-clip: text;
     color: transparent;
     border-radius: 5px;
     box-shadow: 0 0 5px #03e9f4,
@@ -111,6 +118,7 @@ body{
                 transition: 1s    ;
 }
 .login-box .animation:hover{
+    cursor: pointer;
     text-shadow: 0px 0px 15px #03e9f4;
 }
 .login-box .animation span{
